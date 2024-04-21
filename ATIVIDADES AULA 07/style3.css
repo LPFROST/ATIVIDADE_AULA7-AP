@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #dedccd;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.pa {
+    margin: auto;
+    background-color: #793E3B;
+    width: 140px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.pa:hover {
+    background-color: #61312f;
+}
+
+a {
+    width: 180px;
+    color: white;
+    text-decoration: none;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.card1 {
+    width: 310px;
+    height: 450px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+}
+
+.conteudo1 {
+    padding: 7px;
+}
+
+.card-back1 {
+    width: 296px;
+    height: 430px;
+    position: absolute;
+    background-image: url("/images/sololeveling.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+}
+
+.card-front1 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 325px;
+    background-color: white;
+    padding: 7px;
+    -webkit-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+}
+
+.card-front1-1 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    text-align: center;
+    background-color: #dedccd;
+}
+
+.card1 {
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)       
+}
+
+.conteudo1 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;   
+}
+
+.card1:hover, .conteudo1 {
+    transition: ease 0.5s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(0deg)
+        rotateZ(0deg)      
+}
+
+.card1, .conteudo1::after {
+    transition: ease 1s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)
+}
+
+
+.card2 {
+    width: 310px;
+    height: 450px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+}
+
+.conteudo2 {
+    padding: 7px;
+}
+
+.card-back2 {
+    width: 296px;
+    height: 430px;
+    position: absolute;
+    background-image: url("images/Rankers\ Return.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+}
+
+.card-front2 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 325px;
+    background-color: white;
+    padding: 7px;
+    -webkit-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+}
+
+.card-front2-2 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    text-align: center;
+    background-color: #dedccd;
+}
+
+.card2 {
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)       
+}
+
+.conteudo2 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;   
+}
+
+.card2:hover, .conteudo2 {
+    transition: ease 0.5s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(0deg)
+        rotateZ(0deg)      
+}
+
+.card2, .conteudo2::after {
+    transition: ease 1s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)
+}
+
+
+.card3 {
+    width: 310px;
+    height: 450px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+}
+
+.conteudo3 {
+    padding: 7px;
+}
+
+.card-back3 {
+    width: 296px;
+    height: 430px;
+    position: absolute;
+    background-image: url("/images/OmniscientReader’sViewpoint.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+}
+
+.card-front3 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 325px;
+    background-color: white;
+    padding: 7px;
+    -webkit-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+}
+
+.card-front3-3 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    text-align: center;
+    background-color: #dedccd;
+}
+
+.card3 {
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)       
+}
+
+.conteudo3 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;   
+}
+
+.card3:hover, .conteudo3 {
+    transition: ease 0.5s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(0deg)
+        rotateZ(0deg)      
+}
+
+.card3, .conteudo3::after {
+    transition: ease 1s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)
+}
+
+
+.card4 {
+    width: 310px;
+    height: 450px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+}
+
+.conteudo4 {
+    padding: 7px;
+}
+
+.card-back4 {
+    width: 296px;
+    height: 430px;
+    position: absolute;
+    background-image: url("/images/TBATE.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+}
+
+.card-front4 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 325px;
+    background-color: white;
+    padding: 7px;
+    -webkit-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+}
+
+.card-front4-4 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    text-align: center;
+    background-color: #dedccd;
+}
+
+.card4 {
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)       
+}
+
+.conteudo4 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;   
+}
+
+.card4:hover, .conteudo4 {
+    transition: ease 0.5s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(0deg)
+        rotateZ(0deg)      
+}
+
+.card4, .conteudo4::after {
+    transition: ease 1s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)
+}
+
+
+.card5 {
+    width: 310px;
+    height: 450px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 27px 14px rgba(0,0,0,0.24);
+}
+
+.conteudo5 {
+    padding: 7px;
+}
+
+.card-back5 {
+    width: 296px;
+    height: 430px;
+    position: absolute;
+    background-image: url("/images/The-Greatest-Estate-Developer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+}
+
+.card-front5 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 325px;
+    background-color: white;
+    padding: 7px;
+    -webkit-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 17px 18px 0px rgba(0,0,0,0.35);
+}
+
+.card-front5-5 {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    text-align: center;
+    background-color: #dedccd;
+}
+
+.card5 {
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)       
+}
+
+.conteudo5 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;   
+}
+
+.card5:hover, .conteudo5 {
+    transition: ease 0.5s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(0deg)
+        rotateZ(0deg)      
+}
+
+.card5, .conteudo5::after {
+    transition: ease 1s;
+    transform: 
+        perspective(999px)
+        rotateX(0deg)
+        rotateY(39deg)
+        rotateZ(0deg)
+}

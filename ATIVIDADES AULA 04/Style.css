@@ -1,0 +1,57 @@
+.linha{
+    display: inline;
+    margin-left: 10px;
+}
+.fpc{
+    background-color: black;
+    color: white;
+
+}
+.formulario{
+    background-color: azure;
+    width: 750px;
+    border: 1px solid ;
+}
+.enviar{
+    margin-left: 355px;
+    color: red;
+}
+.area{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+.nombre{
+    width: 290px;
+    margin-left: 100px;
+}
+.sobrenombre{
+    width: 290px;
+    margin-left: 70px;
+}
+.data{
+    margin-left: 105px;
+}
+.mail{
+    width: 290px;
+    margin-left: 100px;
+}
+.sex{
+    margin-left: 160px;
+}
+.sex_m{
+    margin-left: 20px;
+}
+.vd{
+    text-align: center;
+    color: white;
+}
+.corpo_video{
+    background-color: black;
+}
+.vid{
+    margin-left: 20px;
+}
+header{
+    background-color: white;
+}

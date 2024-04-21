@@ -1,0 +1,781 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #183440;
+    color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-size: 150%;
+}
+p{
+    text-align: center;
+}
+
+.pai {
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+
+.card1 {
+    width: 150px;
+    height: 150px;
+}
+
+.content1 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card1:active .content1 {
+    transform: rotateY(-180deg);
+    
+}
+.card1:hover .content1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front1,
+.card-back1 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front1{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/cristo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front1::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back1 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card2 {
+    width: 150px;
+    height: 150px;
+}
+
+.content2 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card2:active .content2 {
+    transform: rotateY(-180deg);
+}
+.card2:hover .content2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front2,
+.card-back2 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front2{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/coliseu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front2::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back2 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card3 {
+    width: 150px;
+    height: 150px;
+}
+
+.content3 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card3:active .content3 {
+    transform: rotateY(-180deg);
+}
+.card3:hover .content3 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front3,
+.card-back3 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front3{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/abu-dhabi-grande-mesquita-sheihk-zayed.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front3::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back3 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card4 {
+    width: 150px;
+    height: 150px;
+}
+
+.content4 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card4:active .content4 {
+    transform: rotateY(-180deg);
+}
+.card4:hover .content4 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front4,
+.card-back4 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front4{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/eifel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front4::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back4 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card5 {
+    width: 150px;
+    height: 150px;
+}
+
+.content5 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card5:active .content5 {
+    transform: rotateY(-180deg);
+}
+.card5:hover .content5 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front5,
+.card-back5 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front5{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/New_york_times_square-terabass.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front5::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back5 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card6 {
+    width: 150px;
+    height: 150px;
+}
+
+.content6 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card6:active .content6 {
+    transform: rotateY(-180deg);
+}
+.card6:hover .content6 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front6,
+.card-back6 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front6{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/basilica-sao-pedro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front6::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back6 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card7 {
+    width: 150px;
+    height: 150px;
+}
+
+.content7 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card7:active .content7 {
+    transform: rotateY(-180deg);
+}
+.card7:hover .content7 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front7,
+.card-back7 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front7{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/chichen-itza-ruins.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front7::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back7 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card8 {
+    width: 150px;
+    height: 150px;
+}
+
+.content8 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card8:active .content8 {
+    transform: rotateY(-180deg);
+}
+.card8:hover .content8 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front8,
+.card-back8 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front8{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/Ankor_Wat_temple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front8::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back8 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card9 {
+    width: 150px;
+    height: 150px;
+}
+
+.content9 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card9:active .content9 {
+    transform: rotateY(-180deg);
+}
+.card9:hover .content9 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front9,
+.card-back9 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front9{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/Plaza_de_España.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front9::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back9 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card10 {
+    width: 150px;
+    height: 150px;
+}
+
+.content10 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card10:active .content10 {
+    transform: rotateY(-180deg);
+}
+.card10:hover .content10 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front10,
+.card-back10 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front10{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front10::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back10 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.card11 {
+    width: 150px;
+    height: 150px;
+}
+
+.content11 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card11:active .content11 {
+    transform: rotateY(-180deg);
+}
+.card11:hover .content11 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front11,
+.card-back11 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front11{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/muralha-da-china.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front11::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back11 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.card12 {
+    width: 150px;
+    height: 150px;
+}
+
+.content12 {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+
+.card12:active .content12 {
+    transform: rotateY(-180deg);
+}
+.card12:hover .content12 {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);   
+}
+
+.card-front12,
+.card-back12 {
+    position: absolute;
+    inset: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-front12{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/ilha-de-alcatraz-em-san-francisco-ca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-front12::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    transform: translateY(1rem);
+}
+.card-back12 {
+    transform: rotateY(180deg);
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}

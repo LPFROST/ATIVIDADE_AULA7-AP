@@ -1,0 +1,55 @@
+.formulario{
+    background-color: #F3F3F3;
+    width: 820px;
+    border: 1px solid #E0E0E0;
+    
+}
+.azul{
+    width: 820px;
+    background-color: #BCD0E9;
+    margin-top: auto;
+}
+.paciente{
+    margin-left: 350px;
+    width: 300px;
+}
+.registro{
+    margin-left: 342px;
+    width: 300px;
+}
+.inclusão{
+    margin-left: 415px;
+    width: 200px;
+}
+.nascimento{
+    margin-left: 395px;
+    width: 200px;
+}
+.login{
+    margin-left: 424px;
+    width: 300px;
+}
+.femea{
+    margin-left: 440px;
+}
+.macho{
+    margin-left: 30px;
+}
+.lista{
+    margin-left: 370px;
+    width: 300px;
+}
+.Raca{
+    margin-left: 370px;
+    width: 310px;
+}
+#seila{
+    margin-left: 505px;
+}
+.envio{
+    margin-left: 390px;
+    color: red;
+}
+.quebra{
+    color: black;
+}

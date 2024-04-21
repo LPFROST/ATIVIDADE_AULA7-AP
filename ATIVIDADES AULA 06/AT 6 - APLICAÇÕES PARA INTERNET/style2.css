@@ -1,0 +1,98 @@
+body{
+background-color: #DAE0BE;
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.divpai{
+    width: 25%;
+    height: 800px;
+    margin: auto;
+    margin-top: 10px;
+}
+.feliz_aniversario{
+    width: 100%;
+    height: 400px;
+}
+.abril{
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-left-color: green;
+    border-right-color: green;
+    border-top-color: green;
+}
+.tabela{
+    width: 100%;
+    height: 350px;
+    border-collapse: collapse;
+    border-color: red;
+    border-top-color: black;
+    text-align: center;
+
+}
+.vermelho{
+    background-color: red;
+    width: 30px;
+    height: 20px;
+}
+.cinza{
+    background-color: #E3E1E2;
+    color: #BFBFC2;
+}
+.branco{
+    background-color: white;
+}
+.borda{
+    position: absolute;
+    border: 2px solid black;
+    width: 24.6%;
+    height: 327px;
+    margin-top: 424px;
+}
+.imagem{
+    width: 40px;
+    height: 40px;
+}
+.imagem2{
+    width: 40px;
+    height: 40px;
+}
+.linha4{
+    height: 50px;
+}
+#coluna1{
+    width: 14.2%;
+    background-color: #FDF9DE;
+}
+#coluna2{
+    width: 14.2%;
+    background-color: #FFFF80;
+}
+#coluna3{
+    width: 14.2%;
+    background-color: #FDF9DE;
+}
+#coluna4{
+    width: 14.2%;
+    background-color: #FFFF80;
+}
+#coluna5{
+    width: 14.2%;
+    background-color: #FDF9DE;
+}
+#coluna6{
+    width: 14.2%;
+    background-color: #FFFF80;
+}
+#coluna7{
+    width: 14.2%;
+    background-color: #FDF9DE;
+}

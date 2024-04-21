@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="linha"><a href="Receita.html">Receita</a></li>
+            <li class="linha"><a href="Video.html">Video</a></li>
+            <li class="linha"><a href="Index.html">Index</a></li>
+        </ul>
+    </header>
+
+    <form class="formulario" name="formulário">
+        <h4 class="fpc">&emsp;Formulário para contato</h4>
+        <hr>
+        &emsp;Nome: <input class="nombre" type="text" name="nome" required="required">
+    <hr>
+        &emsp;Sobrenome: <input class="sobrenombre" type="text" name="sobrenome" required="required">
+    <hr>
+        &emsp;Data de Nascimento:<input class="data" type="date" name="nascimento" required="required">
+    <hr>
+        &emsp;Email:<input class="mail" type="text" name="email" required="required">
+    <hr>
+        &emsp;Sexo:<input class="sex" type="radio" value="F" name="sexo"/>Feminino<input class="sex_m" type="radio" name="sexo" value="M"/>Masculino
+    <hr>
+        &emsp;Raça Declarada <select>
+            <option value="Branca">Branca</option>
+            <option value="Negra">Negra</option>
+            <option value="Parda">Parda</option>
+            <option value="Amarela">Amarela</option>
+            <option value="Indígena">Indígena</option>
+            <option value="Desconhecida">Desconhecida</option>
+        </select>
+    <hr>
+        &emsp;Mensagem: <br>
+        <textarea class="area" name="mensagem" cols="70" rows="7"></textarea>
+    <hr>
+        <input class="enviar" type="submit" value="Submit">
+        
+    </form>
+    
+</body>
+</html>
